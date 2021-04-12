@@ -1,0 +1,10 @@
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\bin\Debug\TreeSort.exe.config
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\bin\Debug\TreeSort.exe
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\bin\Debug\TreeSort.pdb
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\obj\Debug\TreeSort.csprojAssemblyReference.cache
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\obj\Debug\TreeSort.csproj.CoreCompileInputs.cache
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\obj\Debug\TreeSort.exe
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\obj\Debug\TreeSort.pdb
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\bin\Debug\nunit.framework.dll
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\bin\Debug\nunit.framework.xml
+C:\Users\gosha\OneDrive\Документы\Repos\TreeSort\TreeSort\obj\Debug\TreeSort.csproj.CopyComplete

@@ -1,0 +1,6 @@
+<nodes>
+	<node name = "Arithmetic Progression" minElement ="0" maxElement ="10000" startLength="1000" diff = "100" maxLength = "3000" repeat = "15">
+  	</node>
+	<node name = "Geometric Progression" minElement ="0" maxElement ="10000" startLength="10" mult = "1,5" maxLength = "10000" repeat = "15">
+  	</node>
+</nodes>
