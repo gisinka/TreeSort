@@ -13,12 +13,31 @@ namespace TreeSort
         [TestCase(100, 0, 10, 15)]
         [TestCase(10000, 0, 10000, 15)]
         [TestCase(100000, 0, 100000, 15)]
-        public static void RandomArraysSortTest(int length, int minNumber, int maxNumber, int repeats)
+        public static void RandomArraysIntSortTest(int length, int minNumber, int maxNumber, int repeats)
         {
             for (var i = 0; i < repeats; i++)
             {
                 var toSort = RandomArrayGenerator(length, minNumber, maxNumber);
                 var treeSorted = TreeNode<int>.GetSorted(toSort, out _);
+                var internalSorted = toSort.ToArray();
+                Array.Sort(internalSorted);
+                Assert.AreEqual(internalSorted, treeSorted);
+            }
+        }
+
+        [TestCase(100, 0, 1, 15)]
+        [TestCase(100, 0, 2, 15)]
+        [TestCase(100, 0, 10, 15)]
+        [TestCase(10000, 0, 10000, 15)]
+        [TestCase(100000, 0, 100000, 15)]
+        public static void RandomArraysStringSortTest(int length, int minNumber, int maxNumber, int repeats)
+        {
+            for (var i = 0; i < repeats; i++)
+            {
+                var toSort = RandomArrayGenerator(length, minNumber, maxNumber)
+                    .Select(x => x.ToString())
+                    .ToArray();
+                var treeSorted = TreeNode<string>.GetSorted(toSort, out _);
                 var internalSorted = toSort.ToArray();
                 Array.Sort(internalSorted);
                 Assert.AreEqual(internalSorted, treeSorted);
